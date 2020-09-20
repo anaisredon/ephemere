@@ -3,97 +3,112 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Hello World</title>
+  <title>La pollinisation</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/master.css">
-  <link href="https://fonts.googleapis.com/css2?family=Alice&family=Cormorant+Garamond:wght@300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Vidaloka&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Herr+Von+Muellerhoff&family=Italianno&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mrs+Saint+Delafield&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <ul>
-      <li>
-        <a href="#etape1">Etape 1</a>
-      </li>
-      <li>
-        <a href="#etape2">Etape 3</a>
-      </li>
-      <li>
-        <a href="#etape3">Etape 3</a>
-      </li>
-      <li>
-        <a href="#etape4">Etape 4</a>
-      </li>
-    </ul>
+    <section id="main-menu">
+      <ul class="menu">
+        <li>
+          <a class="menu-toggle" href="#main-menu"><img class="logo" src="img/abeille1.svg" onmouseover="this.src='img/abeille2.svg'" onmouseout="this.src='img/abeille1.svg'" /></a>
+        </li>
+        <li><a href="#section2">LA POLLINISATION</a>
+        </li>
+        <li><a href="#section3">LES ABEILLES</a>
+        </li>
+        <li><a href="#section4">LE DANGER</a>
+        </li>
+        <li><a href="#section5">LE FONCTIONNEMENT</a>
+        </li>
+      </ul>
+    </section>
   </header>
 
-  <section>
-
+  <section class="section1">
     <h1>LES ABEILLES</h1>
-
-    <figure>
-      <img src="img/abeille.jpg" alt="Ceci est une abeille sur une fleur">
-      <figcaption>Ceci est une abeille sur une fleur</figcaption>
-    </figure>
-
-    <section id="contenu">
-
-      <div class="texte" id="etape1">
-
-        <h2>Je suis un petit titre</h2>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-          aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      </div>
-
-      <div class="texte" id="etape2">
-
-        <h2>Je suis un petit titre</h2>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-          aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      </div>
-
-      <div class="texte" id="etape3">
-
-        <h2>Je suis un petit titre</h2>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-          aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
-      </div>
-
-      <div class="texte" id="etape4">
-
-        <h2>Je suis un petit titre</h2>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-          aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      </div>
-    </section>
+      <h2 id="soustitre">Les abeilles</h2>
+        <img id="photo1" src="img/abeille2.jpg" alt="Ceci est une abeille">
   </section>
 
+  <div class="contenu">
+    <section id="section2">
+      <img id="fleur" src="img/fleur_fond.png" alt="Ceci est une fleur">
+      <img id="photo2" src="img/abeille3.jpg" alt="Ceci est une abeille">
+        <div class="texte2">
+          <h2>La pollinisation</h2>
+            <p>La pollinisation est un mode de reproduction qui concerne un grand nombre de plantes et de fleurs. Cette opération consiste à transporter les grains de pollen, par l’intermédiaire d’un pollinisateur, d’une fleur ou plante à l’autre de la même espèce (cas d’autofécondation) ou d’une espèce différente (cas de pollinisation croisée). Les grains recueillis dans les étamines, par frottement, sont transportés vers le pistil et déposés sur les stigmates (organes reproducteurs femelles). En effet, comme dans toutes espèces, il existe des plantes à fleurs mâles et des plantes à fleurs femelles. La plante mâle est constituée d’une étamine (ce sont les organes de reproduction mâles). Puis il y a l’anthère. C’est ce qui est responsable de la production des pollens (des petites graines qui sont responsables de la fécondation de la
+        plante femelle). <br>
+        La pollinisation permet ainsi, en grande partie, d’assurer une biodiversité essentielle à notre écosystème et à notre nature. Pour ne pas modifier cet écosystème, il est important de veiller à ce que ce processus puisse s’effectuer sans
+          soucis. </p>
+    </div>
+  </section>
+
+  <section id="section3">
+    <img id="photo3" src="img/abeille.jpg" alt="Ceci est une abeille">
+    <div class="texte3">
+      <h2>L’abeille : le numéro 1 des pollinisateurs</h2>
+        <p>L’abeille est dotée d’une vision trichromatique qui lui permet de percevoir les couleurs et le chemin à suivre pour localiser, au cœur de la fleur, les endroits les plus riches en nectar. Elle est très sensible au parfum dégagé par la fleur, à l’ultraviolet et aux couleurs vives comme le bleu et le jaune. <br>
+        L’abeille est connue pour être le meilleur pollinisateur et pour cause. Elle est capable à elle seule de butiner le pollen de 250 fleurs par heure, de stocker sur une seule patte 500 000 grains de pollen. Qu’elle soit sauvage ou domestique, des 100 espèces de plantes faisant partie de nos ressources alimentaires, elle en pollinise à elle seule 71.</p>
+    </section>
+
+    <section id="section4">
+      <img id="photo4" src="img/abeille4.jpg" alt="Ceci est une abeille">
+      <img id="photo5" src="img/abeille5.jpg" alt="Ceci est une abeille">
+      <div class="texte4">
+        <h2>Un pollinisateur en déclin</h2>
+          <p>Malheureusement, le nombre des pollinisateurs régresse de plus en plus, notamment dans les pays industrialisés. Et pourtant on compte 45% de ruche en plus au niveau mondial, au cours des 50 dernières années. Mais trop de pesticides, des plantes riches en nectar qui se font de plus en plus rares, surtout en milieu urbain, et bien d’autres facteurs contribuent d’année en année au déclin des espèces de pollinisateurs
+          Les conséquences : des ressources alimentaires de moins en moins variées, plus d’abeilles donc une plus grosse production de miel, un écosystème déséquilibré, …
+          La solution : modifier nos comportements notamment avec l’abeille en réaménageant son environnement (comme sa ruche et les ruchers en général).</p>
+      </section>
+
+      <section id="section5">
+        <img id="photo6" src="img/abeilleschema.png" alt="Ceci est une abeille">
+        <img id="photo7" src="img/fleur_fond2.jpg" alt="Ceci est une fleur">
+        <div class="texte5">
+          <h2>L'importance de l'espèce</h2>
+            <p>Une abeille peut stocker sur une seule
+            de ses pattes postérieures 500 000
+            grains de pollen et visiter en une seule
+            heure 250 fleurs : c’est dire à quel
+            point elle joue un rôle majeur dans la
+            pollinisation.
+            Grâce à la pollinisation croisée, l’abeille
+            minimise les risques de consanguinité
+            au sein d’une espèce végétale. Elle est
+            garante d’une biodiversité optimale.
+            De plus, certaines espèces ne sont
+            pollinisées que par les abeilles. Sans abeilles, pas de pollinisation, donc
+            pas de fruit ni de graine et disparition
+            possible de l’espèce végétale à terme.
+            Plus les abeilles se posent sur les
+            fl eurs, plus les fruits que produiront
+            ces dernières seront gros et uniformes.
+            On observe surtout cet effet bénéfi que
+            de la pollinisation sur les fruits qui
+            poussent dans des arbres.</p>
+            </section>
+
+
+</div>
+
   <footer>
-    <li>
-      <a href="#menu">Etape 1</a>
-    </li>
-    <li>
-      <a href="#menu">Etape 3</a>
-    </li>
-    <li>
-      <a href="#menu">Etape 3</a>
-    </li>
-    <li>
-      <a href="#menu">Etape 4</a>
-    </li>
+    <section id="footer">
+      <ul class="menu2">
+        <li>
+          <p>2020 Anaïs Redon</p>
+        </li>
+        <li>
+          <a class="menu-toggle" href="#main-menu"><img class="logo" src="img/abeille1.svg" onmouseover="this.src='img/abeille2.svg'" onmouseout="this.src='img/abeille1.svg'" /></a>
+        </li>
+
+      </ul>
+    </section>
   </footer>
 
 </body>
